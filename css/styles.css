@@ -1,0 +1,335 @@
+/* Custom styles developed by Ajay Vaishnav */
+
+/* Elements Selectors */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-weight: 400;
+}
+/* Elements Selectors End */
+
+/* Id Selectors */
+/* home section */
+#home {
+  position: static;
+  background-color: #686d76;
+  background-size: cover;
+}
+/* home section end*/
+
+/* home-1 section */
+#home-1 {
+  background-image: url("../images/masks.jpg");
+  background-size: cover;
+  height: 648px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/* home-1 section End*/
+
+/* Why Us section*/
+#why-us {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
+/* Why Us section End*/
+
+/* adv section */
+#adv {
+  background-image: url("../images/experience.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 690px;
+  width: 100%;
+}
+/* adv section End */
+
+/* approach section */
+#approach {
+  background-image: url("../images/deal.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 690px;
+  width: 100%;
+}
+/* approach section End */
+
+/* abilities section End */
+#abilities {
+  background-image: url("../images/factory.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 690px;
+  width: 100%;
+}
+/* abilities section End */
+
+/* adv- section */
+#adv- {
+  background-image: url("../images/logistics.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 648px;
+  width: 100%;
+}
+/* adv- section End */
+
+/* footer section */
+#subscribe {
+  position: static;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* footer section End */
+/* Id Selectors End */
+
+
+/* Class Selectors */
+/* home section */
+.navbar {
+  margin-right: 30px;
+}
+
+.logo-home {
+  width: 50rem;
+  height: 50rem;
+  margin-top: -6%;
+}
+/* home section End */
+
+/* home-1 section */
+.moto {
+  position: absolute;
+  text-align: center;
+  background-color: #686d76;
+  height: 320px;
+  width: 100%;
+  margin: 150px auto;
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 400;
+  position: absolute;
+  padding: 85px;
+}
+/* home-1 section End */
+
+/* why us section */
+.bullets {
+  position: static;
+  text-align: left;
+  padding: 65px;
+  margin: 60px;
+  color: #686d76;
+}
+
+.gloves {
+  position: absolute;
+  top: 1410px;
+  left: 6px;
+  opacity: 0.1;
+}
+
+.mask {
+  position: absolute;
+  width: 180px;
+  right: 150px;
+  transform: rotate(20deg);
+}
+
+.list {
+  line-height: 70px;
+  font-size: 2.2rem;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* why us section End */
+
+/* adv section */
+/* approach section */
+/* abilities section */
+/* adv- section */
+.adv-1 {
+  padding: 50px;
+  position: absolute;
+  text-align: center;
+  background-color: #686d76;
+  height: 300px;
+  width: 100%;
+}
+
+.title {
+  padding-top: 0;
+  font-weight: 500;
+  font-size: 3.3rem;
+  color: #ffffff;
+}
+
+.content {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.99rem;
+}
+/* adv section End*/
+/* approach section End*/
+/* abilities section End*/
+/* adv- section End*/
+
+/* Footer section */
+.btn {
+  margin-top: 30px;
+}
+
+.subs {
+  position: absolute;
+  margin-top: 20%;
+  text-align: center;
+  background-color: #686d76;
+  height: 100px;
+  width: 100%;
+}
+
+.copyright {
+  color: #f4f9f9;
+}
+
+.fas {
+  color: #f4f9f9;
+  position: absolute;
+  right: 0px;
+}
+/* Footer section End*/
+/* Class Selectors End */
+
+
+
+ /* Mobile Section */
+
+@media (max-width:415px) {
+  body {
+    text-align: center;
+  }
+
+  #home-1 {
+    position: static;
+    background-image: url("../images/m-bg-1.jpg");
+  }
+
+  #adv {
+    position: static;
+    background-image: url("../images/m-experience.jpg");
+  }
+
+  #approach {
+    position: static;
+    background-image: url("../images/m-deal.jpg");
+  }
+
+  #adv- {
+    position: static;
+    background-image: url("../images/m-logistics.jpg");
+  }
+
+  #home {
+    padding: 0;
+    height: 720px;
+    width: 100%;
+  }
+
+  #why-us{
+    height: 100%;
+  }
+
+  .logo-home {
+    text-align: center;
+    margin: auto;
+    width: 30rem;
+    height: 28rem;
+    padding-top: 40px;
+    padding-right: 15%;
+  }
+
+  .heading {
+    position: static;
+    font-size: 25px;
+    padding: 45px 0;
+  }
+
+  .bullets {
+    height: 100%;
+    padding: 68px;
+    border: 0;
+    margin: auto;
+  }
+
+  .list {
+    line-height: 50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .gloves {
+    position: absolute;
+    width: 45px;
+    left: 40px;
+    opacity: 0.3;
+  }
+
+  .mask {
+    position: absolute;
+    width: 100px;
+    right: 50px;
+    bottom: -1495px;
+    transform: rotate(20deg);
+    opacity: 0.3;
+  }
+
+  .adv-1 {
+    padding: 4px;
+    position: absolute;
+    text-align: center;
+    background-color: #686d76;
+    height: 330px;
+    width: 100%;
+  }
+  .title {
+    padding-top: 0;
+    font-weight: 500;
+    font-size: 2.7rem;
+    color: #ffffff;
+  }
+
+  .content {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+  }
+
+  .content-sec {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .h1-sub{
+    font-size: 1.5rem;
+  }
+}
+/* Mobile Section End */
